@@ -5,40 +5,25 @@
 <h2>Welcome to Ze Blog! <span class="wave">👋🏾</span></h2>
 {% endif %}
 {% if articles %}
-<div class="table_wrapper">
-  <table>
-    <thead>
-      <th>Article</th>
-      <th>Author</th>
-      <th>Date</th>
-      <th>Actions</th>
-    </thead>
-    <tbody>
+
+<!-- Renders a list of articles by designing a loop that list articles
+and display a preview for each articles.
+A clickable link (Read more) at the end of the preview text helps to read the full article
+contents. Also the title, the author, the date posted are placed before the contents.-->
+
       {% for article in articles %}
-      {% if current_user.id == article.user_id %}
-      <tr>
-        <td><a href="/article/{{article.id}}/">{{article.title}}</a></td>
-        <td>{{article.author}}</td>
-        <td>{{article.created_on.strftime('%d/%b/%Y')}}</td>
-        <td>
-          <a href="/edit/{{article.id}}/">Edit</a>
-          <a href="/delete/{{article.id}}/">Delete</a>
-        </td>
-      </tr>
-      {% else %}
-      <tr>
-        <td><a href="/article/{{article.id}}/">{{article.title}}</a></td>
-        <td>{{article.author}}</td>
-        <td>{{article.created_on.strftime('%d/%b/%Y')}}</td>
-        <td>
-          <a href="/article/{{article.id}}/">View</a>
-        </td>
-      </tr>
-      {% endif %}
+      
+       <div class="post-preview">
+        <a href="/article/{{article.id}}/">
+          <h2 class="article-tilte">
+           {{article.title}}
+         </h2>
+        </a>
+        <p class="article-meta"> posted by
+        <a href="#">{{article.author}}</a> on {{article.created_on.strftime('%d/%b/%Y')}}</p>
+    {{ article.content[0:100] }} <a href="/article/{{ article.id }}/">Read More</a></p> 
+       </div>
       {% endfor %}
-    </tbody>
-  </table>
-</div>
 <br>
 {% if current_user.is_authenticated %}
 <p><a href="{{url_for('contribute')}}" class="button">Contribute</a></p>
