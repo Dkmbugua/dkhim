@@ -92,7 +92,7 @@ A tutorial on how this project was built is available in [Austin's Space](https:
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
-<!-- Lessons from the Project -->
+<!-- Lessons from the Project. -->
 ## Lessons Learned
 
 Creating this blog helped me learn and practice:
