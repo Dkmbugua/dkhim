@@ -67,7 +67,7 @@
 
 ---
 
-<!-- About the Blog. -->
+<!-- About the Blog -->
 ## About Ze Blog
 
 Ze Blog is a safe space for you to explore the thoughts and experiences of fellow citizens of the internet, and share yours too.
