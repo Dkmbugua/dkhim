@@ -52,7 +52,7 @@ Ze Blog is a safe space for you to explore the thoughts and experiences of fello
 
 Authentication is not required to read articles on this blog, but you'll have log in to post, edit or delete your articles.
 
-Ze Blog was built a final project by ALX Africa<a href="https://www.github.com/Ze-Austin">Ze Austin</a>, a software Engineering student at <a href="https://www.alxafrica.com/">ALX Africa</a> who's learning to create magic with the Python Flask framework.
+Ze Blog was built a final project by ALX Africa<a href="https://github.com/Dkmbugua/dkhim.git">David Mbugua</a>, a software Engineering student at <a href="https://www.alxafrica.com/">ALX Africa</a> who's learning to create magic with the Python Flask framework.
 
 
 
