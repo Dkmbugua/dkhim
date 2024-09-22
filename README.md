@@ -1,16 +1,7 @@
 <!-- Back to Top Navigation Anchor -->
 <a name="readme-top"></a>
 
-<!-- Project Shields -->
-<div align="center">
 
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]
-  [![Twitter][twitter-shield]][twitter-url]
-</div>
 
 <!-- Project Logo -->
 <br />
@@ -22,18 +13,6 @@
 
 <br />
 
-<div>
-  <p align="center">
-    <a href="https://github.com/Ze-Austin/ze-blog#readme"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Ze-Austin/ze-blog/blob/main/static/screenshot.png">View Demo</a>
-    ·
-    <a href="https://github.com/Ze-Austin/ze-blog/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Ze-Austin/ze-blog/issues">Request Feature</a>
-  </p>
-</div>
 
 ---
 
@@ -58,7 +37,6 @@
       </ul>
     </li>    
     <li><a href="#sample">Sample</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -74,9 +52,9 @@ Ze Blog is a safe space for you to explore the thoughts and experiences of fello
 
 Authentication is not required to read articles on this blog, but you'll have log in to post, edit or delete your articles.
 
-Ze Blog was built as an exam project by <a href="https://www.github.com/Ze-Austin">Ze Austin</a>, a Backend Engineering student at <a href="https://altschoolafrica.com/schools/engineering">AltSchool Africa</a> who's learning to create magic with the Python Flask framework.
+Ze Blog was built a final project by ALX Africa<a href="https://www.github.com/Ze-Austin">Ze Austin</a>, a software Engineering student at <a href="https://www.alxafrica.com/">ALX Africa</a> who's learning to create magic with the Python Flask framework.
 
-A tutorial on how this project was built is available in [Austin's Space](https://ze-austin.hashnode.dev/flask-blog-project) on Hashnode.
+
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -123,7 +101,7 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/Ze-Austin/ze-blog.git
+   git clone https://github.com/Dkmbugua/dkhim.git
    ```
 2. Activate the virtual environment
    ```sh
@@ -143,34 +121,20 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 ---
 
-<!-- Sample Screenshot -->
-## Sample
 
-<br />
-
-[![Ze Blog Screenshot][ze-blog-screenshot]](https://github.com/Ze-Austin/ze-blog/blob/main/static/screenshot.png)
-
-<br/>
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
 
-<!-- License -->
-## License
 
-Distributed under the MIT License. See <a href="https://github.com/Ze-Austin/ze-blog/blob/main/LICENSE">LICENSE</a> for more information.
-
-<p align="right"><a href="#readme-top">back to top</a></p>
-
----
 
 <!-- Contact -->
 ## Contact
 
-Dr Austin Wopara - [@Ze_Austin](https://twitter.com/Ze_Austin) - austinwopara@gmail.com
+David Mbugua - [@Dkhim](https://www.linkedin.com/in/david-king-8387891b0/) - dkmbugua70@gmail.com
 
-Project Link: [Ze Blog](https://github.com/Ze-Austin/ze-blog)
+Project Link: [Ze Blog](https://github.com/Dkmbugua/dkhim)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -181,10 +145,9 @@ Project Link: [Ze Blog](https://github.com/Ze-Austin/ze-blog)
 
 This project was made possible by:
 
-* [AltSchool Africa School of Engineering](https://altschoolafrica.com/schools/engineering)
+* [ALX Africa](https://www.alxafrica.com/)
 * [Caleb Emelike's Flask Lessons](https://github.com/CalebEmelike)
-* [My AltSchool Python Repo](https://github.com/Ze-Austin/altschool-python)
-* [GitHub Student Pack](https://education.github.com/globalcampus/student)
+* [GitHub Student Pack](https://github.com/Dkmbugua/dkhim)
 * [NameCheap Logo Maker](https://www.namecheap.com/logo-maker/)
 * [Othneil Drew's README Template](https://github.com/othneildrew/Best-README-Template)
 * [Ileriayo's Markdown Badges](https://github.com/Ileriayo/markdown-badges)
@@ -203,8 +166,6 @@ This project was made possible by:
 [stars-url]: https://github.com/Ze-Austin/ze-blog/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Ze-Austin/ze-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/Ze-Austin/ze-blogissues
-[license-shield]: https://img.shields.io/github/license/Ze-Austin/ze-blog.svg?style=for-the-badge
-[license-url]: https://github.com/Ze-Austin/ze-blog/blob/main/LICENSE.txt
 [twitter-shield]: https://img.shields.io/badge/-@ze_austin-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/ze_austin
 [twitter-url]: https://twitter.com/ze_austin
 [ze-blog-screenshot]: static/screenshot.png
