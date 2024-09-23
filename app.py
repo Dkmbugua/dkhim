@@ -72,17 +72,6 @@ class Message(db.Model):
         return f"Message: <{self.title}>"
 
 
-# Personal reminder for Ze Austin
-"""
-To clear the messages db table via the terminal:
-
-    python3
-    from app import db, Message
-    Message.__table__.drop(db.engine)
-    exit()
-"""
-
-
 # Initialize db tables on first run
 @app.before_first_request
 def create_tables():
